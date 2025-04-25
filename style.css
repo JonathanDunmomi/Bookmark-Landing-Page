@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.all{
+    width: 100%;
+    height: 100vh;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+    background-color: rgb(16, 16, 59);
+    padding: 20px;
+}
+
+.nav-links .fa-solid{
+    display: none;
+}
+
+.nav .fa-solid{
+    display: none;
+}
+
+ul a li{
+    display: inline;
+    margin: 20px;
+    color: #fff;
+}
+
+ul a button{
+    background-color: rgb(209, 89, 89);
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.hero1{
+    margin-top: 30px;
+}
+
+.hero1 h1{
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hero1 p{
+    color: grey;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.hero1 button{
+    margin: 10px;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+#b1{
+    background-color: rgb(72, 53, 199);
+    color: #fff;
+}
+
+#b2{
+    /* box-shadow: 30px; */
+}
+
+.h{
+    position: relative;
+}
+
+.bg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 250px;
+    width: 100%;
+    background-color: rgb(91, 91, 238);
+    border-radius: 200px 0 0 200px;
+}
+
+.h img{
+    width: 500px;
+    margin-left: 100px;
+}
+
+.feature{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.feature h1{
+    margin-bottom: 20px;
+}
+
+.feature p{
+    margin-bottom: 20px;
+    color: grey;
+}
+
+/* .ft{
+    display: flex;
+} */
+
+.feat a h5{
+    margin-bottom: 60px;
+    font-size: 15px;
+}
+
+.fea{
+    display: flex;
+    position: relative;
+}
+
+.bgg{
+    position: absolute;
+    left: -20;
+    bottom: 0;
+    z-index: -1;
+    height: 250px;
+    width: 500px;
+    background-color: rgb(91, 91, 238);
+    border-radius: 0px 200px 200px 0px;
+}
+
+.fea img{
+    width: 400px;
+    margin-right: 60px;
+}
+
+.featur{
+    margin-top: 50px;
+}
+
+.featur button{
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: rgb(72, 53, 199);
+    color: #fff;
+    cursor: pointer;
+}
+
+.download{
+    margin-top: 60px;
+}
+
+.row{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.download-col{
+    flex-basis: 31%;
+    background: rgb(232, 228, 228);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 30px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.download-col img{
+    margin-bottom: 20px;
+}
+
+.download-col h3{
+    margin-bottom: 20px;
+}
+
+.download-col h6{
+    margin-bottom: 60px;
+    color: grey;
+}
+
+.download-col button{
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(72, 53, 199);
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+.question h4{
+    margin-bottom: 20px;
+}
+
+.ask button{
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: rgb(72, 53, 199);
+    color: #fff;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.contact{
+    background: rgb(72, 53, 199);
+    margin-bottom: 20px;
+}
+
+.contact h5{
+    padding-top: 50px;
+    color: #fff;
+}
+
+.contact h3{
+    margin-top: 40px;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.ct{
+    padding-bottom: 20px;
+}
+
+.ct input{
+    padding: 7px 30px;
+}
+
+.ct button{
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: rgb(224, 96, 96);
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: rgb(10, 10, 65);
+    display: flex;
+    margin-bottom: 20px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.foot ul a li{
+    color: #fff;
+}
+
+@media (max-width: 700px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .nav {
+      flex-direction: flex;
+      align-items: center;
+      margin: 10px;
+      padding: 10px;
+    }
+  
+    ul a li {
+      display: block;
+      margin: 10px 0;
+      text-align: center;
+    }
+
+    .list ul li{
+        display: block;
+    }
+
+    .list{
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        right: -200px;
+        top: 0;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    .list .fa-solid{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .list ul{
+        padding: 30px;
+    }
+
+    .nava .fa-solid{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+  
+    .hero {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 40px;
+    }
+  
+    .hero1 {
+      text-align: center;
+      margin: 20px;
+    }
+  
+    .h img {
+      width: 90%;
+      margin: 20px 0;
+    }
+  
+    .feature {
+      position: static;
+      margin: 20px;
+      text-align: center;
+    }
+  
+    .fea {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .bgg{
+        top: 0;
+        left: -20;
+    }
+  
+    .fea img {
+      width: 90%;
+      margin: 20px 0;
+    }
+  
+    .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .download-col {
+      width: 90%;
+      margin: 20px 0;
+    }
+  
+    .contact h3 {
+      text-align: center;
+      font-size: 24px;
+    }
+  
+    .ct {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .ct input {
+      margin-bottom: 10px;
+      width: 80%;
+    }
+  
+    .footer {
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+    }
+  
+    .foot ul a li {
+      margin: 5px 0;
+    }
+  
+  }
+  
